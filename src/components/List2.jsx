@@ -4,11 +4,11 @@ const UnOrderedList2 = () => {
   return (
     <div className="w-full">
       <ul className="space-y-3">
-        <ListItem text="It is a long established fact reader" />
-        <ListItem text="It is a long established fact reader" />
-        <ListItem text="The point of using Lorem Ipsum" />
-        <ListItem text="There are many variations of passages" />
-        <ListItem text="If you are going to use a of Lorem" />
+        <ListItem text="Provide overview of energy transition both global and national" />
+        <ListItem text="Discuss design principles of open-source capacity optimisation models: energyRT and Switch." />
+        <ListItem text="Demonstrations of energy modeling: exposure to input data streams, energy system optimisation, and processing modeling outputs" />
+        {/* <ListItem text="There are many variations of passages" />
+        <ListItem text="If you are going to use a of Lorem" /> */}
       </ul>
     </div>
   );
@@ -19,7 +19,7 @@ export default UnOrderedList2;
 const ListItem = ({ text }) => {
   return (
     <li className="flex text-base text-body-color dark:text-dark-6">
-      <span className="mr-2.5 mt-0.5 text-secondary">
+      <span className="mr-2.5 mt-0.5 text-blue-800">
         <svg
           width={20}
           height={20}
@@ -44,7 +44,8 @@ const ListItem = ({ text }) => {
           </defs>
         </svg>
       </span>
-      {text}
+      <div className=" text-blue-900 font-bold">
+      {text}</div>
     </li>
   );
 };

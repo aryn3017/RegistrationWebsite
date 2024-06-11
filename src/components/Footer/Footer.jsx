@@ -9,7 +9,7 @@ function Footer() {
                         <a className="flex title-font font-medium items-center mmd:justify-start justify-center text-gray-900">
                             <img src='./IITR_Logo.svg' className="w-20 h-20 text-white  rounded-full" viewBox="0 0 24 24" />
                         </a>
-                        <p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+                        <p className="mt-2 text-sm text-gray-500">INDIAN INSTITUTE OF TECHNOLOGY ROORKEE</p>
                     </div>
                     <div className="flex-grow flex flex-wrap mmd:pl-20 -mb-10 mmd:mt-0 mt-10 mmd:text-left text-center">
                         <div className="llg:w-1/4 mmd:w-1/2 w-full px-4">

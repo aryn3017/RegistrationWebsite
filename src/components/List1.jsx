@@ -4,11 +4,16 @@ const UnOrderedList3 = () => {
   return (
     <div className="w-full">
       <ul className="space-y-3">
-        <ListItem text="It is a long established fact reader" />
-        <ListItem text="It is a long established fact reader" />
-        <ListItem text="The point of using Lorem Ipsum" />
-        <ListItem text="There are many variations of passages" />
-        <ListItem text="If you are going to use a of Lorem" />
+        <ListItem text="Support policy makers, industries and energ, consumers in optimizing their efficiency, and cost-effective energy mix while planning for their Net-Zero targets." hea="Net-Zero Targets:"/>
+        <ListItem text="Orientation will be provided on the basic mode architecture and how to access the codes in GIT-HUB.
+" hea="Guidance to the USER:" />
+        <ListItem text="Interaction with the modelling community from industries, government, and consultancies.
+" hea="Engagement:
+"/>
+        <ListItem text="Trainees can access the model, data, to leam, customize, and develop their own model for research, use in industry.
+acarbonisine strategies." hea="Implementation:
+"/>
+        {/* <ListItem text="If you are going to use a of Lorem" /> */}
       </ul>
     </div>
   );
@@ -16,10 +21,10 @@ const UnOrderedList3 = () => {
 
 export default UnOrderedList3;
 
-const ListItem = ({ text }) => {
+const ListItem = ({ text,hea }) => {
   return (
     <li className="flex text-base text-body-color dark:text-dark-6">
-      <span className="mr-2.5 mt-0.5 text-secondary">
+      <span className="mr-2.5 mt-0.5 text-blue-900">
         <svg
           width={20}
           height={20}
@@ -44,7 +49,10 @@ const ListItem = ({ text }) => {
           </defs>
         </svg>
       </span>
-      {text}
+      <div className="flex flex-col p-0 ">
+      <h1 className="text-xl mb-0 pb-0 text-blue-800 font-bold">{hea}</h1>
+      <br/>
+      {text}</div>
     </li>
   );
 };

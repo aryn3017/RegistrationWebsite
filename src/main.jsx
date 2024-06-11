@@ -41,7 +41,7 @@ const router = createBrowserRouter([
       
       {
         path: "About",
-        element: <About Heading={"LSO"} Content={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odio beatae deleniti odit consectetur cumque est quasi dolorum accusantium provident! Ullam quis totam beatae, nemo maxime dicta molestias voluptates ea, autem tempora quae velit repu"}/>,
+        element: <About Heading={"ABOUT "} Content={"This workshop aims to provide an introductory training on open-source indigenously developed Reference Energy System models - energyRT and Switch."}/>,
 
         
       },
