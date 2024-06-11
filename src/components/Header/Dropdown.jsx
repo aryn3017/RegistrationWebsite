@@ -59,11 +59,12 @@ const Dropdown4 = () => {
                       : 'top-[110%] invisible opacity-0'
                       }`}
                   >
-                    <DropdownItem label='About' to='/about' />
-                    <DropdownItem label='Team' to='/team' />
-                    <DropdownItem label='Speakers' to='/speakers' />
-                    <DropdownItem label='Contacts' to='/contact' />
-                    <DropdownItem label='Imp info.' to='/Impinfo' />
+                    <DropdownItem label='HOME' to='/' />
+                    <DropdownItem label='ABOUT' to='/about' />
+                    <DropdownItem label='TEAM' to='/team' />
+                    <DropdownItem label='SPEAKERS' to='/speakers' />
+                    <DropdownItem label='CONTACTS' to='/contact' />
+                    <DropdownItem label='IMP INFO.' to='/Impinfo' />
                   </div>
                 </div>
               </div>
