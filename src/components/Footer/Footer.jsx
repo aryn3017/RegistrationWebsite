@@ -7,7 +7,7 @@ function Footer() {
                 <div className="container px-5 py-24 mx-auto flex mmd:items-center llg:items-start mmd:flex-row mmd:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 mmd:mx-0 mx-auto text-center mmd:text-left">
                         <a className="flex title-font font-medium items-center mmd:justify-start justify-center text-gray-900">
-                            <img src='./assets/IITR_Logo.svg' className="w-20 h-20 text-white  rounded-full" viewBox="0 0 24 24" />
+                            <img src='./IITR_Logo.svg' className="w-20 h-20 text-white  rounded-full" viewBox="0 0 24 24" />
                         </a>
                         <p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
                     </div>

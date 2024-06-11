@@ -28,8 +28,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'nav-img': "url('/assets/dept.jpg')",
-
+        'nav-img': "url('/dept.jpg')",
       },
     },
     plugins: [],
