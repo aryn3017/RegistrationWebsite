@@ -4,15 +4,15 @@ function Footer() {
     return (
         <div>
             <footer className="text-gray-600 body-font bg-gray-100">
-                <div className="container px-5 py-24 mx-auto flex mmd:items-center llg:items-start mmd:flex-row mmd:flex-nowrap flex-wrap flex-col">
-                    <div className="w-64 flex-shrink-0 mmd:mx-0 mx-auto text-center mmd:text-left">
-                        <a className="flex title-font font-medium items-center mmd:justify-start justify-center text-gray-900">
-                            <img src='./IITR_Logo.svg' className="w-20 h-20 text-white  rounded-full" viewBox="0 0 24 24" />
+                <div className=" mx-10 flex items-center mmd:flex-row mmd:flex-nowrap flex-col">
+                    <div className="w-full flex-shrink-0 mmd:mx-0 mx-auto text-center mmd:text-left">
+                        <a className="flex font-medium justify-center mmd:justify-start text-gray-900">
+                            <img src='./LOGOS.png' className="w-full mt-5 llg:w-1/2 h-full mb-0 text-white"  />
                         </a>
-                        <p className="mt-2 text-sm text-gray-500">INDIAN INSTITUTE OF TECHNOLOGY ROORKEE</p>
                     </div>
-                    <div className="flex-grow flex flex-wrap mmd:pl-20 -mb-10 mmd:mt-0 mt-10 mmd:text-left text-center">
-                        <div className="llg:w-1/4 mmd:w-1/2 w-full px-4">
+                    {/* <div className="flex-grow flex flex-wrap mmd:pl-20 -mb-10 mmd:mt-0 mt-10 mmd:text-left text-center">
+                       
+                         <div className="llg:w-1/4 mmd:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
                             <nav className="list-none mb-10">
                                 <li>
@@ -28,25 +28,8 @@ function Footer() {
                                     <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
                                 </li>
                             </nav>
-                        </div>
-                        <div className="llg:w-1/4 mmd:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                                </li>
-                            </nav>
-                        </div>
-                    </div>
+                        </div> 
+                    </div> */}
                 </div>
                 <div className="bg-gray-300">
                     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col ssm:flex-row">

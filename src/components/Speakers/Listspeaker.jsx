@@ -1,29 +1,35 @@
 import React from "react";
 
-const UnOrderedList3 = () => {
+const UnOrderedList5 = () => {
   return (
     <div className="w-full">
       <ul className="space-y-3">
-        <ListItem text="Support policy makers, industries and energ, consumers in optimizing their efficiency, and cost-effective energy mix while planning for their Net-Zero targets." hea="Net-Zero Targets:"/>
-        <ListItem text="Orientation will be provided on the basic mode architecture and how to access the codes in GIT-HUB.
-" hea="Guidance to the USER:" />
-        <ListItem text="Interaction with the modelling community from industries, government, and consultancies.
-" hea="Engagement:
+        <ListItem text="Founder Director, SMARTS, Asian Institute of Technology, Bangkok
+" hea="Dr Joyashree Roy
 "/>
-        <ListItem text="Trainees can access the model, data, to leam, customize, and develop their own model for research, use in industry.
-acarbonisine strategies." hea="Implementation:
+        <ListItem text="Chief Research Scientist, IISc
+
+" hea="Dr Balachandra Patil
+" />
+        <ListItem text="Lead Senior Economist, Environmental Defense Fund
+" hea="Dr Oleg Lugovoy
+
 "/>
-        {/* <ListItem text="If you are going to use a of Lorem" /> */}
+        <ListItem text="Associate Vice President, Environmental Defense Fund
+" hea="Dr Mathias Fripp (TBC)
+
+"/>
+        <ListItem text="Assistant Professor, Indian Institute of technology, Roorkee"  hea="Dr Tarun Sharma"/>
       </ul>
     </div>
   );
 };
 
-export default UnOrderedList3;
+export default UnOrderedList5;
 
-const ListItem = ({ text,hea }) => {
+const ListItem = ({ text, hea }) => {
   return (
-    <li className="flex text-base text-body-color dark:text-dark-6">
+    <li className="flex text-base text-body-color dark:text-dark-6 llg:ml-40 ">
       <span className="mr-2.5 mt-0.5 text-blue-900">
         <svg
           width={20}
@@ -49,9 +55,9 @@ const ListItem = ({ text,hea }) => {
           </defs>
         </svg>
       </span>
-      <div className="flex flex-col p-0 ">
-      <h1 className="text-xl mb-0 pb-0 text-blue-800 font-bold">{hea}</h1>
-      {text}</div>
+      <div className="flex flex-col p-0  ">
+        <h1 className="text-xl mb-0 pb-0 text-blue-800 font-bold">{hea}</h1>
+        {text}</div>
     </li>
   );
 };
