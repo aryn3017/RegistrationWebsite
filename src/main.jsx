@@ -15,7 +15,7 @@ import Impinfo from './components/Impinfo/Impinfo.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '#/',
+    path: '/',
     element: <Layout />,
     children: [
       {
