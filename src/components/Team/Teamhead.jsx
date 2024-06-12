@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Header/Navbar'
 import UnOrderedList1 from './TeamList'
+import UnOrderedList1_1 from './TeamList2'
 
 
 function Teamhead() {
@@ -16,7 +17,7 @@ function Teamhead() {
       </div>
       <div className='flex justify-center sm:flex-col sm:items-center mb-20'>
         <UnOrderedList1 head={"CORE COMMITTEE"}/>
-        <UnOrderedList1 head={"ORGANIZING COMMITTEE"}/>
+        <UnOrderedList1_1 head={"ORGANIZING COMMITTEE"}/>
       </div>
     </>
   )

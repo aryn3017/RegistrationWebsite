@@ -4,22 +4,41 @@ const UnOrderedList5 = () => {
   return (
     <div className="w-full">
       <ul className="space-y-3">
-        <ListItem text="Founder Director, SMARTS, Asian Institute of Technology, Bangkok
-" hea="Dr Joyashree Roy
-"/>
-        <ListItem text="Chief Research Scientist, IISc
+        <ListItem
+          text="Founder Director, SMARTS, Asian Institute of Technology, Bangkok
+"
+          lnk={"https://ait.ac.th/2018/08/prof-joyashree-roy-joins-ait-bangabandhu-chair-professor/"}
+          hea="Dr Joyashree Roy
+"
+        />
+        <ListItem
+          text="Chief Research Scientist, IISc
+          
+"
+          lnk={"https://mgmt.iisc.ac.in/p-balachandra/"}
+          hea="Dr Balachandra Patil"
+        />
+        <ListItem
+          text="Lead Senior Economist, Environmental Defense Fund
+"
+          lnk={""}
+          hea="Dr Oleg Lugovoy
 
-" hea="Dr Balachandra Patil
-" />
-        <ListItem text="Lead Senior Economist, Environmental Defense Fund
-" hea="Dr Oleg Lugovoy
+"
+        />
+        <ListItem
+          text="Associate Vice President, Environmental Defense Fund
+"
+          lnk={"https://www.edf.org/people/matthias-fripp"}
+          hea="Dr Mathias Fripp (TBC)
 
-"/>
-        <ListItem text="Associate Vice President, Environmental Defense Fund
-" hea="Dr Mathias Fripp (TBC)
-
-"/>
-        <ListItem text="Assistant Professor, Indian Institute of technology, Roorkee"  hea="Dr Tarun Sharma"/>
+"
+        />
+        <ListItem
+          text="Assistant Professor, Indian Institute of technology, Roorkee"
+          hea="Dr Tarun Sharma"
+          lnk={"https://www.iitr.ac.in/~DM/Tarun_Sharma"}
+        />
       </ul>
     </div>
   );
@@ -27,7 +46,7 @@ const UnOrderedList5 = () => {
 
 export default UnOrderedList5;
 
-const ListItem = ({ text, hea }) => {
+const ListItem = ({ text, hea, lnk }) => {
   return (
     <li className="flex text-base text-body-color dark:text-dark-6 llg:ml-40 ">
       <span className="mr-2.5 mt-0.5 text-blue-900">
@@ -55,9 +74,10 @@ const ListItem = ({ text, hea }) => {
           </defs>
         </svg>
       </span>
-      <div className="flex flex-col p-0  ">
+      <a href={lnk} className="flex flex-col p-0  ">
         <h1 className="text-xl mb-0 pb-0 text-blue-800 font-bold">{hea}</h1>
-        {text}</div>
+        {text}
+      </a>
     </li>
   );
 };

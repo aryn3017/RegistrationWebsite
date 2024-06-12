@@ -7,11 +7,15 @@ const UnOrderedList1 = ({head}) => {
     <p className=" bg-green-500 rounded-lg p-1 text-white text-center mb-5 mt-5">{head}</p>
     <div className="w-full">
       <ul className="space-y-3">
-        <ListItem text="It is a long established fact reader" />
-        <ListItem text="It is a long established fact reader" />
-        <ListItem text="The point of using Lorem Ipsum" />
-        <ListItem text="There are many variations of passages" />
-        <ListItem text="If you are going to use a of Lorem" />
+        <ListItem text="Dr Joyashree Roy
+" />
+        <ListItem text="Dr Balachandra Patil
+" />
+        <ListItem text="Dr Oleg Lugovoy
+" />
+        <ListItem text="Dr Mathias Fripp (TBC)
+" />
+        <ListItem text="Dr Tarun Sharma" />
       </ul>
     </div>
 </div>
