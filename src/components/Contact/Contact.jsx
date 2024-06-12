@@ -12,14 +12,19 @@ function Contact() {
                 <div className="container px-5 py-80 mx-auto flex sm:py-52">
                 </div>
             </section>
-            <div className='flex flex-row justify-center flex-wrap'>
+            <div className='flex flex-row justify-center flex-wrap mb-20'>
                 <div className="w-1/4 border-2 md:w-full flex flex-col leading-relaxed p-5 m-5 shadow-2xl">
                     <div className="w-1/2 font-bold">EMAIL US</div>
-                    <div className="w-1/2 sm:text-sm">DoMS@gmail.com</div>
+                    <div className="w-1/2 sm:text-sm">tarunsharma@ms.iitr.ac.in</div>
                 </div>
-                <div className="w-1/4 border-2 md:w-full flex flex-col leading-relaxed p-5 m-5 shadow-2xl">
+                <div className="w-1/4 border-2 md:w-full flex flex-col leading-relaxed p-5 m-5 shadow-2xl ">
                     <div className="w-1/2 font-bold">CALL US</div>
-                    <div className="w-1/2 sm:text-sm">12345456</div>
+                    <div className="w-1/2 sm:text-sm">
+                    <p>Sandeep Kumar :</p>
+                    <p className=' font-thin'>7830295858</p>
+                    <p>Ankit Sharma :</p>
+                    <p className=' font-thin'>7088480176</p>
+                    </div>
                 </div>
             </div>
         </div></>
