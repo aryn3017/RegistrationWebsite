@@ -19,7 +19,8 @@ const UnOrderedList5 = () => {
           hea="Dr Balachandra Patil"
         />
         <ListItem
-          text="Lead Senior Economist, Environmental Defense Fund
+          text="Open Energy Transition, Global modelling thinktank
+OptimalSolution, USA
 "
           lnk={""}
           hea="Dr Oleg Lugovoy
