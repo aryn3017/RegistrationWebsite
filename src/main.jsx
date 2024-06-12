@@ -38,6 +38,10 @@ const router = createBrowserRouter([
         path: "Impinfo",
         element: <Impinfo/>,
       },
+      {
+        path: "*",
+        element: <Home visib="hidden"/>,
+      },
       
       {
         path: "About",
