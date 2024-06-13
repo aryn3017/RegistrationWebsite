@@ -6,9 +6,9 @@ function Impinfo() {
         <div className='mt-10 mb-10'>
             <div className='flex flex-col items-center'>
                 <p className=' font-extrabold text-2xl text-green-500 mb-2 underline'>IMPORTANT DATES</p>
-                <p className=' bg-green-600 p-1 rounded-lg text-white mb-5'>Registrations are now closed</p>
+                <p className=' bg-green-600 p-1 rounded-lg text-white mb-5'>Registrations are now open</p>
                 <p>Last date of registration: Please refer the below table</p>
-                <p className=' text-gray-500 font-mono'>Workshop dates: 2spet-3sept</p>
+                <p className=' text-gray-500 font-mono'>Workshop dates: 2nd - 3rd september</p>
             </div>
             <div className="max-w-4xl mx-auto p-4 bg-white shadow-xl rounded-lg mb-10">
                 <table className="min-w-full table-auto">
@@ -44,8 +44,8 @@ function Impinfo() {
             </div>
             <div className=' flex flex-col items-center mr-20 ml-20 sm:mr-5 sm:ml-5 mb-10'>
                 <p className=' font-extrabold text-2xl text-green-500 underline mb-5'>REQUIRED BACKGROUND PREREQUISITES</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis voluptate earum eaque dolore minima eius perferendis nemo aspernatur illum suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fuga cum officia doloremque aliquid ab quam inventore incidunt nisi ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur vero, magnam quas dicta nostrum odio suscipit ipsam dolores nam rerum!</p>
-                <p className=' text-gray-500 mt-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, quo!</p>
+                <p>-</p>
+                <p className=' text-gray-500 mt-5'>-</p>
             </div>
             <div className='flex flex-col items-center mb-5'>
                 <p className=' font-extrabold text-2xl text-green-500 mb-2 underline'>Workshop Fee</p>
@@ -67,29 +67,29 @@ function Impinfo() {
                             {/* <td className="border px-4 py-2">Row 1, Cell 1</td>
                             <td className="border px-4 py-2">Row 1, Cell 2</td> */}
                             <td className="border px-4 py-2">Students</td>
-                            <td className="border px-4 py-2">7200</td>
+                            <td className="border px-4 py-2"></td>
                         </tr>
                         <tr>
                             {/* <td className="border px-4 py-2">Row 2, Cell 1</td>
                             <td className="border px-4 py-2">Row 2, Cell 2</td> */}
                             <td className="border px-4 py-2">Faculty</td>
-                            <td className="border px-4 py-2">14400</td>
+                            <td className="border px-4 py-2"></td>
                         </tr>
                         <tr className="bg-gray-100">
                             {/* <td className="border px-4 py-2">Row 3, Cell 1</td>
                             <td className="border px-4 py-2">Row 3, Cell 2</td> */}
                             <td className="border px-4 py-2">Industry</td>
-                            <td className="border px-4 py-2">33000</td>
+                            <td className="border px-4 py-2"></td>
                         </tr>
                     </tbody>
                 </table>
                 <p className=' text-sm text-red-500 text-center'>Notification of acceptance and fees payment link will typically be done within 10 days of doing registration</p>
             </div>
-            <div className=' flex flex-col items-center mb-20'>
+            {/* <div className=' flex flex-col items-center mb-20'>
                 <p className=' font-extrabold text-2xl text-red-500 underline mb-5'>CANCELATION POLICY</p>
                 <p className='mb-10 text-gray-400'>Refunds are subject to cancellation charges as follows :</p>
                 <UnOrderedList5 />
-            </div>
+            </div> */}
             <div className='flex justify-center'>
             <a href="https://www.google.com" target="_blank"
                 className="group relative overflow-hidden bg-green-600 focus:ring-4 focus:ring-blue-300 inline-flex items-center px-7 py-2.5 rounded-lg text-white justify-center">

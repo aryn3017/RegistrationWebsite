@@ -28,7 +28,7 @@ function Navbar({ visib , Heading}) {
                         <div className='flex justify-center font-bold text-2xl md:text-lg'>OPEN-SOURCE ENERGY SYSTEM ANALYSIS</div>
                         <div className='flex justify-center font-bold md:text-sm'>To Be Held At</div>
                         <div className='flex justify-center  font-bold text-2xl md:text-lg'> Management Studies, IIT Roorkee</div>
-                        <div className='flex justify-center font-bold md:text-sm '>2 - 3 SEPTEMBER 2024</div>
+                        <div className='flex justify-center font-bold md:text-sm '>2nd - 3rd SEPTEMBER 2024</div>
                         <div className='flex justify-center mt-3'>
                             <a href='https://www.google.com' className=' mr-2 p-2 bg-green-500 duration-500 rounded-md hover:bg-green-700 cursor-pointer font-bold'>REGISTRATION</a>
                         </div>
