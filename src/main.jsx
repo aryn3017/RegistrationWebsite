@@ -39,7 +39,7 @@ const router = createBrowserRouter([
         element: <Impinfo/>,
       },
       {
-        path: "*",
+        path: "(.*).html",
         element: <Home visib="hidden"/>,
       },
       
