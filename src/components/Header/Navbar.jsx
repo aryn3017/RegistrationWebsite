@@ -9,7 +9,7 @@ function Navbar({ visib , Heading}) {
 
     return (
         <div className=' bg-nav-img bg-cover text-white pb-10'>
-            <div className='flex flex-row justify-between px-40 sm:px-5 md:px-20 p-4 pb-10 bg-black bg-opacity-60'>
+            <div className='flex flex-row justify-between px-40 sm:px-5 md:px-20 p-4 mmd:pb-5 pb-0 bg-black backdrop-blur-sm bg-opacity-60'>
                 <div className=' text-2xl font-extrabold font-mono text-green-500'>IDEEA 2024</div>
                 <Dropdown4 />
                 <div className='flex flex-row md:hidden '>
@@ -23,14 +23,14 @@ function Navbar({ visib , Heading}) {
             </div>
             <div className='flex justify-center'>
                 <div className={visib}>
-                    <div className='flex flex-col rounded-3xl p-10'>
+                    <div className='flex flex-col rounded-3xl p-10 '>
                         <div className='flex justify-center font-bold text-xl '>Workshop on</div>
                         <div className='flex justify-center font-bold text-2xl md:text-lg'>OPEN-SOURCE ENERGY SYSTEM ANALYSIS</div>
                         <div className='flex justify-center font-bold md:text-sm'>To Be Held At</div>
                         <div className='flex justify-center  font-bold text-2xl md:text-lg'> Management Studies, IIT Roorkee</div>
                         <div className='flex justify-center font-bold md:text-sm '>2nd - 3rd SEPTEMBER 2024</div>
                         <div className='flex justify-center mt-3'>
-                            <a href='https://www.google.com' className=' mr-2 p-2 bg-green-500 duration-500 rounded-md hover:bg-green-700 cursor-pointer font-bold'>REGISTRATION</a>
+                            <a href='https://www.google.com' className=' mr-2 p-2 bg-green-500 duration-1000 rounded-md hover:bg-green-700 cursor-pointer font-bold'><p className=' bg-clip-text bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 hover:text-transparent duration-1000'>REGISTRATION</p></a>
                         </div>
                     </div>
                 </div>
