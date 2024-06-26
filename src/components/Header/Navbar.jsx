@@ -8,7 +8,7 @@ function Navbar({ visib , Heading}) {
     if(visib!="hidden"){vi="hidden";}
 
     return (
-        <div className=' bg-nav-img bg-cover text-white pb-10'>
+        <div className=' bg-nav-img bg-cover text-white pb-0'>
             <div className='flex flex-row justify-between px-40 sm:px-5 md:px-20 p-4 mmd:pb-5 pb-0 bg-black backdrop-blur-sm bg-opacity-60'>
                 <div className=' text-2xl font-extrabold font-mono text-green-500'>IDEEA 2024</div>
                 <Dropdown4 />
@@ -40,6 +40,7 @@ function Navbar({ visib , Heading}) {
                     </div>
                 </div>
             </div>
+            <div className=' w-full h-4 bg-gradient-to-t from-white to-transparent'></div>
         </div>
     )
 }
