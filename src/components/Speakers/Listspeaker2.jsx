@@ -1,24 +1,24 @@
 import React from "react";
 
-const UnOrderedList5 = () => {
+const UnOrderedList9 = () => {
   return (
     <div className="w-full">
       <ul className="space-y-3">
         <ListItem
-          text="Founder Director, SMARTS, Asian Institute of Technology, Bangkok
+          text="Jadavpur University
 "
-          lnk={"https://ait.ac.th/2018/08/prof-joyashree-roy-joins-ait-bangabandhu-chair-professor/"}
-          hea="Dr Joyashree Roy
+          // lnk={"https://ait.ac.th/2018/08/prof-joyashree-roy-joins-ait-bangabandhu-chair-professor/"}
+          hea="Sourish
 "
         />
         <ListItem
-          text="Chief Research Scientist, IISc
+          text="Jadavpur University
           
 "
-          lnk={"https://mgmt.iisc.ac.in/p-balachandra/"}
-          hea="Dr Balachandra Patil"
+          // lnk={"https://mgmt.iisc.ac.in/p-balachandra/"}
+          hea="Arijit"
         />
-        <ListItem
+        {/* <ListItem
           text="Open Energy Transition, Global modelling thinktank
 OptimalSolution, USA
 "
@@ -39,17 +39,17 @@ OptimalSolution, USA
           text="Assistant Professor, Indian Institute of technology, Roorkee"
           hea="Dr Tarun Sharma"
           lnk={"https://www.iitr.ac.in/~DM/Tarun_Sharma"}
-        />
+        /> */}
       </ul>
     </div>
   );
 };
 
-export default UnOrderedList5;
+export default UnOrderedList9;
 
 const ListItem = ({ text, hea, lnk }) => {
   return (
-    <li className="flex text-base text-body-color dark:text-dark-6  ">
+    <li className="flex text-base text-body-color ">
       <span className="mr-2.5 mt-0.5 text-blue-900">
         <svg
           width={20}
