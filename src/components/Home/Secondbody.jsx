@@ -13,7 +13,12 @@ function Secondbody() {
         </div>
         <div className="w-1/4 border-2 md:w-full flex flex-col leading-relaxed p-5 mt-5 mb-5 shadow-2xl">
             <div className="w-1/2 font-bold">CALL US</div>
-            <div className="w-1/2 sm:text-sm">12345456</div>
+            <div className="w-1/2 ssm:text-ssm">
+              <p>Ankit Sharma :</p>
+              <p className=" font-thin">7088480176</p>
+              <p>Sandeep Kumar :</p>
+              <p className=" font-thin">7830295858</p>
+            </div>
         </div>
         
     </div>
