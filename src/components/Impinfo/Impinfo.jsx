@@ -7,14 +7,14 @@ function Impinfo() {
             <div className='flex flex-col items-center'>
                 <p className=' font-extrabold text-2xl text-green-500 mb-2 underline'>IMPORTANT DATES</p>
                 <p className=' bg-green-600 p-1 rounded-lg text-white mb-5'>Registrations are now open</p>
-                <p>Last date of registration: Please refer the below table</p>
+                <p className=' text-red-500 font-medium'>Last date of registration: 15 August</p>
                 <p className=' text-gray-500 font-mono'>Workshop dates: 2nd - 3rd september</p>
             </div>
-            <div className="max-w-4xl mx-auto p-4 bg-white shadow-xl rounded-lg mb-10">
+            {/* <div className="max-w-4xl mx-auto p-4 bg-white shadow-xl rounded-lg mb-10">
                 <table className="min-w-full table-auto">
                     <thead className="bg-green-600 text-white">
                         <tr>
-                            {/* <th className="px-4 py-2">Header 1</th> */}
+                            <th className="px-4 py-2">Header 1</th>
                             <th className="px-4 py-2"></th>
                             <th className="px-4 py-2">Early bird fees</th>
                             <th className="px-4 py-2">For Regular fees</th>
@@ -25,27 +25,27 @@ function Impinfo() {
                             <td className="border px-4 py-2">Registration closes</td>
                             <td className="border px-4 py-2">Row 1, Cell 2</td>
                             <td className="border px-4 py-2">Row 1, Cell 3</td>
-                            {/* <td className="border px-4 py-2">Row 1, Cell 4</td> */}
+                            <td className="border px-4 py-2">Row 1, Cell 4</td> //
                         </tr>
                         <tr>
                             <td className="border px-4 py-2">Fees Payment Last Date (after acceptance)</td>
                             <td className="border px-4 py-2">Row 2, Cell 2</td>
                             <td className="border px-4 py-2">Row 2, Cell 3</td>
-                            {/* <td className="border px-4 py-2">Row 2, Cell 4</td> */}
+                            <td className="border px-4 py-2">Row 2, Cell 4</td> //
                         </tr>
-                        {/* <tr className="bg-gray-100">
-                            <td className="border px-4 py-2">Row 3, Cell 1</td>
-                            <td className="border px-4 py-2">Row 3, Cell 2</td>
-                            <td className="border px-4 py-2">Row 3, Cell 3</td>
-                            <td className="border px-4 py-2">Row 3, Cell 4</td>
-                        </tr> */}
-                    </tbody>
+                        <tr className="bg-gray-100">//
+                            <td className="border px-4 py-2">Row 3, Cell 1</td>//
+                            <td className="border px-4 py-2">Row 3, Cell 2</td>//
+                            <td className="border px-4 py-2">Row 3, Cell 3</td>//
+                            <td className="border px-4 py-2">Row 3, Cell 4</td>//
+                        </tr> //
+                    </tbody>//
                 </table>
-            </div>
-            <div className=' flex flex-col items-center mr-20 ml-20 sm:mr-5 sm:ml-5 mb-10'>
-                <p className=' font-extrabold text-2xl text-green-500 underline mb-5'>REQUIRED BACKGROUND PREREQUISITES</p>
-                <p>-</p>
-                <p className=' text-gray-500 mt-5'>-</p>
+            </div> */}
+            <div className=' flex flex-col items-center mr-20 ml-20 sm:mr-5 sm:ml-5 mb-10 mt-20'>
+                <p className=' font-extrabold text-2xl text-green-500 underline mb-5'>IMPORTANT INFORMATION</p>
+                <p className=' text-center'>Meals during the workshop are included in the registration fee.  Limited accommodation (night of 1st and 2nd Sept) on twin sharing basis will be allotted to registered participants on first come first served basis.</p>
+                <p className=' text-gray-500 mt-5 text-center'>For single room and for accommodation on 3rd September, please get in touch with the organizers. Basis availability these provisions may be availed by paying an additional charge.</p>
             </div>
             <div className='flex flex-col items-center mb-5'>
                 <p className=' font-extrabold text-2xl text-green-500 mb-2 underline'>Workshop Fee</p>
@@ -58,7 +58,8 @@ function Impinfo() {
                         <tr>
                             {/* <th className="px-4 py-2">Header 1</th>
                             <th className="px-4 py-2">Header 2</th> */}
-                            <th className="px-4 py-2">Fees (including GST, not including accomodation and meals)</th>
+                            <th className="px-4 py-2">
+                            Attendee Category</th>
                             <th className="px-4 py-2">Regular Fees</th>
                         </tr>
                     </thead>
@@ -67,20 +68,15 @@ function Impinfo() {
                             {/* <td className="border px-4 py-2">Row 1, Cell 1</td>
                             <td className="border px-4 py-2">Row 1, Cell 2</td> */}
                             <td className="border px-4 py-2">Students</td>
-                            <td className="border px-4 py-2"></td>
+                            <td className="border px-4 py-2">₹ 3000</td>
                         </tr>
                         <tr>
                             {/* <td className="border px-4 py-2">Row 2, Cell 1</td>
                             <td className="border px-4 py-2">Row 2, Cell 2</td> */}
-                            <td className="border px-4 py-2">Faculty</td>
-                            <td className="border px-4 py-2"></td>
+                            <td className="border px-4 py-2">Others</td>
+                            <td className="border px-4 py-2">₹ 5000</td>
                         </tr>
-                        <tr className="bg-gray-100">
-                            {/* <td className="border px-4 py-2">Row 3, Cell 1</td>
-                            <td className="border px-4 py-2">Row 3, Cell 2</td> */}
-                            <td className="border px-4 py-2">Industry</td>
-                            <td className="border px-4 py-2"></td>
-                        </tr>
+                        
                     </tbody>
                 </table>
                 <p className=' text-sm text-red-500 text-center'>Notification of acceptance and fees payment link will typically be done within 10 days of doing registration</p>

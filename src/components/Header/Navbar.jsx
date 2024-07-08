@@ -30,7 +30,7 @@ function Navbar({ visib , Heading}) {
                         <div className='flex justify-center  font-bold text-2xl md:text-lg'> Management Studies, IIT Roorkee</div>
                         <div className='flex justify-center font-bold md:text-sm '>2nd - 3rd SEPTEMBER 2024</div>
                         <div className='flex justify-center mt-3'>
-                            <a href='https://www.google.com' className=' mr-2 p-2 bg-green-500 duration-1000 rounded-md hover:bg-green-700 cursor-pointer font-bold'><p className=' bg-clip-text bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 hover:text-transparent duration-1000'>REGISTRATION</p></a>
+                            <a href='https://forms.gle/Roo82ya5ibK97CXR8' className=' mr-2 p-2 bg-green-500 duration-1000 rounded-md hover:bg-green-700 cursor-pointer font-bold'><p className=' bg-clip-text bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 hover:text-transparent duration-1000'>REGISTRATION</p></a>
                         </div>
                     </div>
                 </div>
