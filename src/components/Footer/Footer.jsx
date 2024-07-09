@@ -38,7 +38,7 @@ function Footer() {
                         <div className="llg:w-1/4 mmd:w-1/2 w-full mmd:px-1 ssm:px-4 px-4 p-1 rounded-lg">
                             <h2 className="title-font font-medium text-black tracking-widest text-sm mb-3">ADDRESS</h2>
                             <nav className="list-none mb-10">
-                                <li>
+                                <li> 
                                     <p className="text-black"><i  className="fa">&#xf041;</i> 126 DOMs, IIT Roorkee</p>
                                 </li>
                                 <li>
