@@ -15,12 +15,16 @@ function Footer() {
                             <h2 className="title-font font-medium text-black tracking-widest text-sm mb-3">CONTACT US</h2>
                             <nav className="list-none mb-10 ">
                                 <li>
-                                    <a className="text-black">Email: </a>
-                                    <br />
-                                    <a className="text-black font-thin ">tarunsharma@ms.iitr.ac.in</a>
+                                    {/* <a className="text-black">Email: </a>
+                                    <br /> */}
+                                    <i  className="fa text-sm">&#xf0e0;</i>
+                                    <a className="text-black font-thin "> tarunsharma@ms.iitr.ac.in</a>
                                 </li>
                                 <li>
-                                    <a className="text-black ">Phone: 01332-284976</a>
+                                    <a href='https://shunyalab.vercel.app/' className="text-black hover:text-green-500 "><i className="material-icons text-sm">&#xe80b;</i> Shunya Lab Webpage</a>
+                                </li>
+                                <li>
+                                    <a className="text-black "><i class="fa text-2xl">&#xf10b;</i> 01332-284976</a>
                                 </li>
                                 <li>
                                     <a className="text-black ">Dept. of Management Studies</a>
@@ -35,7 +39,7 @@ function Footer() {
                             <h2 className="title-font font-medium text-black tracking-widest text-sm mb-3">ADDRESS</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <p className="text-black">126 DOMs, IIT Roorkee</p>
+                                    <p className="text-black"><i  className="fa">&#xf041;</i> 126 DOMs, IIT Roorkee</p>
                                 </li>
                                 <li>
                                     <p className="text-black mmd:font-thin">Postal Code: 247667</p>
