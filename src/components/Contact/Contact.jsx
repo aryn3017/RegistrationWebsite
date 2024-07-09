@@ -15,7 +15,10 @@ function Contact() {
             <div className='flex flex-row justify-center flex-wrap mb-20'>
                 <div className="w-1/4 border-2 md:w-full flex flex-col leading-relaxed p-5 m-5 shadow-2xl">
                     <div className="w-1/2 font-bold">EMAIL US</div>
-                    <div className="w-1/2 sm:text-sm">tarunsharma@ms.iitr.ac.in</div>
+                    <div className="w-1/2 sm:text-sm">Ashish :</div>
+            <div className="w-1/2 sm:text-sm font-thin">ashish_s1@ms.iitr.ac.in</div>
+            <div className="w-1/2 sm:text-sm f">Sandeep :</div>
+            <div className="w-1/2 sm:text-sm font-thin">sandeep_k@ms.iitr.ac.in</div>
                 </div>
                 <div className="w-1/4 border-2 md:w-full flex flex-col leading-relaxed p-5 m-5 shadow-2xl ">
                     <div className="w-1/2 font-bold">CALL US</div>

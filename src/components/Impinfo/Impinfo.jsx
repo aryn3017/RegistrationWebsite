@@ -79,7 +79,7 @@ function Impinfo() {
                         
                     </tbody>
                 </table>
-                <p className=' text-sm text-red-500 text-center'>Notification of acceptance and fees payment link will typically be done within 10 days of doing registration</p>
+                {/* <p className=' text-sm text-red-500 text-center'>Notification of acceptance and fees payment link will typically be done within 10 days of doing registration</p> */}
             </div>
             {/* <div className=' flex flex-col items-center mb-20'>
                 <p className=' font-extrabold text-2xl text-red-500 underline mb-5'>CANCELATION POLICY</p>
