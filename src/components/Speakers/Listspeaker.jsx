@@ -36,6 +36,11 @@ OptimalSolution, USA
 "
         />
         <ListItem
+          text="Senior Program Manager, World Resources Institute, India"
+          hea="Dr. Varun J"
+          lnk={""}
+        />
+        <ListItem
           text="Assistant Professor, Indian Institute of technology, Roorkee"
           hea="Dr Tarun Sharma"
           lnk={"https://www.iitr.ac.in/~DM/Tarun_Sharma"}
