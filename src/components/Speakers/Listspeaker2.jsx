@@ -5,6 +5,29 @@ const UnOrderedList9 = () => {
     <div className="w-full">
       <ul className="space-y-3">
         <ListItem
+          text="IISc Bangalore
+"
+          // lnk={"https://ait.ac.th/2018/08/prof-joyashree-roy-joins-ait-bangabandhu-chair-professor/"}
+          hea="Praveen P 
+
+"
+        />
+        <ListItem
+          text="IISc Bangalore
+"
+          // lnk={"https://ait.ac.th/2018/08/prof-joyashree-roy-joins-ait-bangabandhu-chair-professor/"}
+          hea="M Manjunath
+
+"
+        />
+        <ListItem
+          text="IISc Bangalore
+"
+          // lnk={"https://ait.ac.th/2018/08/prof-joyashree-roy-joins-ait-bangabandhu-chair-professor/"}
+          hea="Abhishek Das
+"
+        />
+        <ListItem
           text="Jadavpur University
 "
           // lnk={"https://ait.ac.th/2018/08/prof-joyashree-roy-joins-ait-bangabandhu-chair-professor/"}
