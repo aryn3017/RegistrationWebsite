@@ -31,7 +31,7 @@ OptimalSolution, USA
           text="Associate Vice President, Environmental Defense Fund
 "
           lnk={"https://www.edf.org/people/matthias-fripp"}
-          hea="Dr Mathias Fripp (TBC)
+          hea="Dr Mathias Fripp
 
 "
         />

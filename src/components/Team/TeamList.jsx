@@ -13,7 +13,7 @@ const UnOrderedList1 = ({head}) => {
 " />
         <ListItem text="Dr Oleg Lugovoy
 " />
-        <ListItem text="Dr Mathias Fripp (TBC)
+        <ListItem text="Dr Mathias Fripp
 " />
         <ListItem text="Dr Tarun Sharma" />
       </ul>
