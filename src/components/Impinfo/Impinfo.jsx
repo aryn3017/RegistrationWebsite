@@ -87,7 +87,7 @@ function Impinfo() {
                 <UnOrderedList5 />
             </div> */}
             <div className='flex justify-center'>
-            <a href="https://www.google.com" target="_blank"
+            <a href="https://iitracin-my.sharepoint.com/:x:/g/personal/tarunsharma_ms_iitr_ac_in/EfT4dyN6YHpIv596Fp_eFyoB7VkutQS6lBu1vd2jsVaNsQ?e=0iXqxE" target="_blank"
                 className="group relative overflow-hidden bg-green-600 focus:ring-4 focus:ring-blue-300 inline-flex items-center px-7 py-2.5 rounded-lg text-white justify-center">
                 <span className="z-40">TENTATIVE SCHEDULE FOR IDEEA WORKSHOP</span>
                 <svg className="z-40 ml-2 -mr-1 w-3 h-3 transition-all duration-300 group-hover:translate-x-1" fill="currentColor"
