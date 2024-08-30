@@ -6,7 +6,7 @@ function Impinfo() {
         <div className='mt-10 mb-10'>
             <div className='flex flex-col items-center'>
                 <p className=' font-extrabold text-2xl text-green-500 mb-2 underline'>IMPORTANT DATES</p>
-                <p className=' bg-green-600 p-1 rounded-lg text-white mb-5'>Registrations are now open</p>
+                <p className=' bg-red-600 p-1 rounded-lg text-white mb-5'>Registrations are now closed</p>
                 <p className=' text-red-500 font-medium'>Last date of registration: 15 August</p>
                 <p className=' text-gray-500 font-mono'>Workshop dates: 2nd - 3rd september</p>
             </div>
